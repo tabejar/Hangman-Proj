@@ -7,8 +7,6 @@ def lives(word):
     guess = input("Guess a letter: ")
     if guess == lst:
       print("nice")
-    elif guess != lst:
-      print("wrong letter")
   print("you ran out lives")
   
 def game(word):
